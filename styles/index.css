@@ -1,0 +1,55 @@
+.carousel {
+
+    position: relative;
+    width: 100%;
+  max-width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background: #ddd;
+    padding: 100px 0;
+    font-size: 24px;
+  }
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+/* clases de la portada */
+.portada{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 20rem;
+    text-align: center;
+}
+.portada div{
+    align-content: center;
+    color: white;
+}

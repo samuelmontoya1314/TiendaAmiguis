@@ -1,0 +1,18 @@
+.nav-bar{
+    background-color: pink;
+    display: flex;
+}
+
+.icono img{
+    height: 5rem;
+    border-radius: 4rem;
+}
+
+.opciones li{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: pink;
+}
+

@@ -14,66 +14,365 @@
     <header>
         <div class="nav-bar">
             <div class="icono">
-                <img src="img/logo.png" alt="">
+                <img src="../img/logo.png" alt="">
             </div>
             <div class="opciones">
                 <li>
                     <ul> <a href="../index.html"> <p>Inicio</p> </a></ul>
-                    <ul> <a href="../views/achentas.html"> <p>Productos</p> </a></ul>
-                    <ul> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></ul>
+                    <ul> <a href="../views/accesorios.html"> <p>Accesorios</p> </a></ul>
+                    <ul> <a href="../views/achentas.html"> <p>Anchetas</p> </a> </ul>
                 </li>
             </div>
         </div>
+        <hr>
     </header>
     <main>
-    <section> 
-        <div class="f-card">
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto </h3>
-                <h3>Precio:</h3>
-            </div>
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto</h3>
-                <h3>Precio:</h3>
-            </div>
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto</h3>
-                <h3>Precio:</h3>
-            </div>
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto</h3>
-                <h3>Precio:</h3>
-            </div>
-        </div>
-        <div class="f-card">
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto </h3>
-                <h3>Precio:</h3>
-            </div>
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto</h3>
-                <h3>Precio:</h3>
-            </div>
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto</h3>
-                <h3>Precio:</h3>
-            </div>
-            <div class="c-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmQqNKIbiNhytRIqjbLKqvbI9_ealcC2nflA&s" alt="xd">
-                <h3> producto</h3>
-                <h3>Precio:</h3>
+    <section>   
+        <div class="row-f categorias"> 
+            <div> 
+                <a href="#Generales">Generales</a>
+                <a href="#Desayunos">Desayunos</a>
+                <a href="#temporada"> Temporada</a>
             </div>
         </div>
     </section>
+    <section> 
+        <h2 id="Generales"> Generales </h2>
+        <div class="f-card">
+            <div class="c-card">
+                <a href="#openModal">
+                    <img src="../img/anchetas/ancheta_1.jpg" alt="xd">
+                    <h3> Producto</h3>
+                    <h3>Precio:</h3>
+                   
+                </a>
+            </div>
+            <div id="openModal" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="c-card">
+                <a href="#openModa2">
+                <img src="../img/anchetas/ancheta_2.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+                </a>
+            </div>
+            
+            <div id="openModa2" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="c-card">
+                <a href="#openModa3">
+                <img src="../img/anchetas/ancheta_3.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+                </a>
+            </div>
+            <div id="openModa3" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="c-card">
+                <a href="#openModa4"> 
+                <img src="../img/anchetas/ancheta_4.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+            </a>
+            </div>
+            <div id="openModa4" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <h2 id="Desayunos">Desayunos</h2>
+        <div class="f-card">
+            <div class="c-card">
+                <a href="#openModa5">
+                    <img src="../img/anchetas/ancheta_1.jpg" alt="xd">
+                    <h3> Producto</h3>
+                    <h3>Precio:</h3>
+                   
+                </a>
+            </div>
+            <div id="openModa5" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="c-card">
+                <a href="#openModa6">
+                <img src="../img/anchetas/ancheta_2.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+                </a>
+            </div>
+            
+            <div id="openModa6" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="c-card">
+                <a href="#openModa7">
+                <img src="../img/anchetas/ancheta_3.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+                </a>
+            </div>
+            <div id="openModa7" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="c-card">
+                <a href="#openModa8"> 
+                <img src="../img/anchetas/ancheta_4.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+            </a>
+            </div>
+            <div id="openModa8" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <h2 id="temporada">Temporada</h2>
+        <div class="f-card">
+            <div class="c-card">
+                <a href="#openModa9">
+                    <img src="../img/anchetas/ancheta_1.jpg" alt="xd">
+                    <h3> Producto</h3>
+                    <h3>Precio:</h3>
+                   
+                </a>
+            </div>
+            <div id="openModa9" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="c-card">
+                <a href="#openModa10">
+                <img src="../img/anchetas/ancheta_2.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+                </a>
+            </div>
+            
+            <div id="openModa10" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="c-card">
+                <a href="#openModa11">
+                <img src="../img/anchetas/ancheta_3.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+                </a>
+            </div>
+            <div id="openModa11" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="c-card">
+                <a href="#openModa12"> 
+                <img src="../img/anchetas/ancheta_4.jpg" alt="xd">
+                <h3> Producto</h3>
+                <h3>Precio:</h3>
+            </a>
+            </div>
+            <div id="openModa12" class="modalDialog">
+                <div class="row-modal">
+                    <div class="column-modal">
+                        <img src="../img/anchetas/ancheta_6.jpg" alt="xd">
+                    </div>
+                    <div class="column-modal">
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h2>Producto</h2>
+                        <p>Descripción Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ullam quo fugit cumque dolorem unde. Quo eos, ea aut eveniet quos quisquam, excepturi natus, illo consequuntur voluptate dignissimos corporis?</p>
+                        <p>55k</p>
+                        <div class="categorias"> 
+                            <a id="btnpagar">Pagar</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        
+    </section>
     </main>
-    <footer>    
+    <footer>  
+        <hr>  
         <div class="row-f">
             <div class="column-f">
                 <h3> Horario de atención</h3>
@@ -92,7 +391,11 @@
             </div>
             <div class="column-f">
                 <h3>Siguenos en:</h3>
-                <a href="https://www.instagram.com/amiguistienda?igsh=bWluZzQ2OXBwMnVu" target="_blank"><img src="../img/instagram.png" alt="" class="red"></a>
+                <div class="red">
+                    <a href="https://www.instagram.com/amiguistienda?igsh=bWluZzQ2OXBwMnVu" target="_blank"><img src="../img/instagram.png" alt="" class="red"></a>
+                    <a href="https://wa.me/573108492343" target="_blank" ><img src="../img/whatsapp.png" alt="" srcset="" class="red"></a>
+                </div>
+                
             </div>
         </div>
     </footer>
